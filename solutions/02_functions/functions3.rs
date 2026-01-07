@@ -5,8 +5,6 @@ fn call_me(num: u8) {
 }
 
 fn main() {
-    let input: u8 = 10;
-
-    // TODO: Fix the function call.
-    call_me(input);
+    // `call_me` expects an argument.
+    call_me(5);
 }
