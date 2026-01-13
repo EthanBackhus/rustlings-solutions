@@ -1,9 +1,6 @@
-use std::array;
-
 fn main() {
-    // TODO: Create an array called `a` with at least 100 elements in it.
-    // let a = ???
-    let a: [i32; 100] = [0; 100];
+    // An array with 100 elements of the value 42.
+    let a = [42; 100];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
